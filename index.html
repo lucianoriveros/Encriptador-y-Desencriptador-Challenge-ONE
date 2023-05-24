@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilo -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <!-- Fuente -->
+    <link rel="import" href="https://fonts.google.com/share?selection.family=Inter:wght@100;200;300;400;500;600;700;800;900">
+    <!-- Favicon -->
+    <link rel="icon" href="img/Logo.svg" type="image/svg+xml">
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Encriptador - Desencriptador de texto">
+    <meta property="og:site_name" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content=Sitio web de noticias de la Instistución>
+    <meta property="og:type" content="Web Page">
+    <meta property="og:image" content=graph.png>
+    <title>Encriptador Challenge</title>
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="img/Logo.svg" alt="Logo de Alura">
+        <h1>Encriptador de Texto</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="section-1">
+            <div class="container-text">
+                <textarea  id="text-area" placeholder="Ingrese su texto aquí"></textarea>
+            </div>
+
+            <div class="container-advertencia">
+                <img src="img/alerta.svg" alt="Advertencia:" width="3%" style="margin-right:1.2%;">
+                <p>Solo minúsculas y sin acéntos</p>
+            </div>
+
+            <div class="container-buttons">
+                <input id="encriptar" type="button" value="Encriptar" onclick="encriptar()">
+                <input id="desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+                <!-- <input id="pegar" type="button" value="Pegar" onclick="pegar()"> -->
+            </div> 
+        </div>
+
+        <div class="section-2">
+            <div class="container-result">
+                <div class="container-img">
+                    <img id="delete" src="img/Muñeco.svg" alt="Ninguna palabra ingresada ">
+                    <h3 id="delete-2">Ningún mensaje fue encontrado</h3>
+                    <textarea id="text-result">Ingrese el texto a encriptar o desencriptar</textarea>
+                </div>
+                <div class="btn-copiar">
+                    <input id="copiar" type="button" value="Copiar" onclick="copiar()">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container-footer">
+            <p>Mayo - 2023 | <a href="#">Luciano Riveros</a></p>
+        </div>
+    </footer>
+</body>
+</html>
