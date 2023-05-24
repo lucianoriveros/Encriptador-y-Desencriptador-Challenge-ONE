@@ -6,7 +6,7 @@
         text:'Espero que te guste ',
         padding: '6em 3em 8em 3em',
         color: '#000',
-        timer: 4000000,
+        timer: 4000,
         timerProgressBar: true,
         background: 'linear-gradient(to right, #fc5c7d, #6a82fb)' ,
         backdrop: `
