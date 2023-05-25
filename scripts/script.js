@@ -3,17 +3,16 @@
     Swal.fire({
         showConfirmButton: false,
         title: '¡Bienvenido/a!',
-        text:'Espero que te guste ',
-        padding: '6em 3em 8em 3em',
+        text:'¡Gracias por visitar esta página y espero que te guste!',
+        padding: '3em 3em 4em 3em',
         color: '#000',
-        timer: 4000,
+        timer: 6000,
         timerProgressBar: true,
         background: 'linear-gradient(to right, #fc5c7d, #6a82fb)' ,
         backdrop: `
           url("img/butterfly.gif")
           top
           no-repeat
-        
         `,
         
       });

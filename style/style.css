@@ -4,6 +4,16 @@
     font-family: 'inter' , sans-serif;
     caret-color: transparent;
 }
+*::selection {
+    background: #ff6e7f;
+    color: white;
+}
+
+/* Firefox */
+*::-moz-selection {
+    background: #ff6e7f;
+    color: white;
+}
 
 /* fondo de bienvenida transparente */
 body.swal2-shown > [aria-hidden="true"] {
@@ -17,19 +27,26 @@ body{
     background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
 }
 
+
 header{
     width: 100%;
     height: 10vh;
     display: flex;
     align-items: center;
 }
-header logo{
-   width: auto;
-   height: auto;
+
+header .mi-logo{
+    width: 15%;
+    height: auto;
+    color: #0A3871;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.5em;
+    font-family: 'Rampart One', cursive;
 }
 
 header h1{
-    width: 100%;
+    width: 80%;
     text-align: center;
     font-weight: 200;
     font-size: 40px;
@@ -77,6 +94,17 @@ header h1{
     text-align: center;
     /* box-shadow: inset 0px 0px 8px 0px black; */
     background: none;
+}
+
+#text-area::selection {
+    background: #ff6e7f;
+    color: white;
+}
+
+/* Firefox */
+#text-area::-moz-selection {
+    background: #ff6e7f;
+    color: white;
 }
 
 #text-area::placeholder{
@@ -194,6 +222,17 @@ input[type="button"]:active{
     /* box-shadow: inset 0px 0px 8px 0px black; */
     border-radius: 25px;
     padding: 2%;
+}
+
+#text-result::selection {
+    background: #ff6e7f;
+    color: white;
+}
+
+/* Firefox */
+#text-result::-moz-selection {
+    background: #ff6e7f;
+    color: white;
 }
 
 .btn-copiar{
