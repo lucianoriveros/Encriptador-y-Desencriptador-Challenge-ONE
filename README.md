@@ -1,9 +1,9 @@
-[one](https://github.com/luciano9912/Encriptador-y-Desencriptador---Challenge-ONE/assets/107219907/7a06524d-6fa5-474e-9d16-8773d277e037)
+![241083742-7a06524d-6fa5-474e-9d16-8773d277e037](https://github.com/luciano9912/Encriptador-y-Desencriptador---Challenge-ONE/assets/107219907/999fdfb1-3514-48ec-b3db-4a7526b38b76)
 
 # 🚀 Challenge Encriptador | Oracle + Alura
 ENCRIPTADOR y DESENCRIPTADOR de texto desarrollado como Sprint 1 para PROGRAMA ONE DE ALURA LATAM 
 
-<a href="https://luciano9912.github.io/Encriptador-y-Desencriptador---Challenge-ONE/">Visualiza mi repositorio</a>
+<a style="text-align:center;" href="https://luciano9912.github.io/Encriptador-y-Desencriptador---Challenge-ONE/">Visualiza mi repositorio</a>
 
 ![Captura de pantalla (341)](https://github.com/luciano9912/Encriptador-y-Desencriptador---Challenge-ONE/assets/107219907/ad1c76f8-fb66-4ef3-8165-6cc03a624d48)
 
@@ -12,4 +12,5 @@ ENCRIPTADOR y DESENCRIPTADOR de texto desarrollado como Sprint 1 para PROGRAMA O
 Este proyecto es una aplicación que utiliza HTML, CSS, JavaScript para encriptar y desencriptar texto. La encriptación se realiza mediante la sustitución de ciertas letras por otras según un conjunto específico de reglas. La aplicación solo acepta letras minúsculas y no se permiten acentos ni caracteres especiales.
 
 La página web cuenta con campos para que el usuario pueda ingresar el texto que desea encriptar o desencriptar y seleccionar la opción correspondiente. El resultado de la operación se muestra en la pantalla y existe la opción de copiar el texto encriptado o desencriptado al portapapeles mediante un botón de "copiar".!
+
 
