@@ -2,7 +2,7 @@
 # 🚀 Challenge Encriptador | Oracle + Alura
 ENCRIPTADOR y DESENCRIPTADOR de texto desarrollado como Sprint 1 para PROGRAMA ONE DE ALURA LATAM 
 
-<a href="https://lucianoriveros.github.io/Encriptador-y-Desencriptador---Challenge-ONE/" target="_blank" >Visualiza mi repositorio</a>
+<a href="https://lucianoriveros.github.io/Encriptador-y-Desencriptador-Challenge-ONE/" target="_blank" >Visualiza mi repositorio</a>
 
 ![Captura de pantalla (341)](https://github.com/luciano9912/Encriptador-y-Desencriptador---Challenge-ONE/assets/107219907/ad1c76f8-fb66-4ef3-8165-6cc03a624d48)
 
